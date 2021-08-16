@@ -28,22 +28,6 @@ conjuntos = {"Homem de Ferro", "Capitão América", "Luke Cage", "Mulher-Aranha"
 a_pesquisar in conjuntos
 fim_sets = time.time()
 
-print("")
-#print(a_pesquisar in lista)
-#print(a_pesquisar in tupla)
-#print(a_pesquisar in dic)
-print(a_pesquisar in conjuntos)
-#print("")
-#print("Tempo de pesquisa em Lista............", fim_lista-ini_lista)
-#print("Tempo de pesquisa em Tupla............", fim_tupla-ini_tupla)
-#print("Tempo de pesquisa em Dicionário.......", fim_dic-ini_dic)
-#print("Tempo de pesquisa em Conjunto.........", fim_sets-ini_sets)
-#print(lista)
-#print(tupla)
-#print(dic)
-#print(conjuntos)
-
-
 resultado = {"Conjunto": fim_sets-ini_sets, "Tupla": fim_tupla-ini_tupla,"Dicionário": fim_dic-ini_dic, "Lista": fim_lista-ini_lista}
 print("")
 
